@@ -13,7 +13,7 @@ SECRET_KEY = 'vy8#&hobbvc_^()s9sm8mw!iorc7i#b22s-kcy8e=l1=6y_9=h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pythonko.pythonanywhere.com']
 
 
 # Application definition
@@ -107,6 +107,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/pythonko/dev.ink/static'
 
 STATICFILES_DIRS = [
 
