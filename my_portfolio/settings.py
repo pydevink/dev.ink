@@ -13,7 +13,7 @@ SECRET_KEY = 'vy8#&hobbvc_^()s9sm8mw!iorc7i#b22s-kcy8e=l1=6y_9=h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pythonko.pythonanywhere.com']
+ALLOWED_HOSTS = ['pythonko.pythonanywhere.com', 'localhost']
 
 
 # Application definition
